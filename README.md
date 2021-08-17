@@ -33,7 +33,7 @@ To get started quickly, follow these steps.
 3. Replace `<YOUR_PUBLICATION_ID>` with your AdMob publication ID.
 4. Replace `<YOUR_CLIENT_ID>` And `<YOUR_CLIENT_SECRET>` with values which you saved in step 2.
 5. Replace `<YOUR_REDIRECT_URI>` with `/path/to/AdMob/Auth.php`. (Link of `Auth.php` in your server)
-6. Replace `<YOUR_TELEGRAM_ID>` with your userID to be admin of the bot. (You can use [`@userinfobot`](https://github.com/nadam/userinfobot) to find your userID)
+6. Replace `<YOUR_TELEGRAM_USER_ID>` with your userID to be admin of the bot. (You can use [`@userinfobot`](https://github.com/nadam/userinfobot) to find your userID)
 
 - **Step 5:** Login to the panel by the bot. (Only required once)
 1. Start the bot (With the admin account)
