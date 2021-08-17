@@ -8,7 +8,7 @@
 To get started quickly, follow these steps.
 
 - **Step 1:** Upload the project in your server.
-1. Download the source code from [Releases](https://github.com/Aghajari/AdMob-TgBot/releases).
+1. Download the source code (`AdMob.zip`) from [Releases](https://github.com/Aghajari/AdMob-TgBot/releases).
 2. Uncompress the zip file you download in your server. The path must be something like `/path/to/AdMob/...`
 
 - **Step 2:** Enable the AdMob Api.
