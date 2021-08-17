@@ -67,7 +67,7 @@ function addToTotal(&$total, $key, $value){
     }
 }
 
-function parseCountryCodeToFlag(string $code): string{
+function parseCountryCodeToFlag(string $code) {
     $exceptions = [
         'en' => 'gb',
         'uk' => 'gb',
