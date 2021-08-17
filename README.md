@@ -25,14 +25,15 @@ To get started quickly, follow these steps.
 - **Step 3:** Create a Telegram Bot.
 1. Create a telegram bot using botfather ([See more](https://core.telegram.org/bots#6-botfather))
 2. Save the **token** somewhere. (you need these in next step!)
+3. Set the bot Webhook `https://api.telegram.org/bot<YOUR_TOKEN>/setWebhook?url=<BOT_LINK>` <br> Replace `<YOUR_TOKEN>` with the bot token and replace `<BOT_LINK>` with `/path/to/AdMob/Bot.php`. (Link of `Bot.php` in your server)
 
 - **Step 4:** Set AdMobOptions values.
 1. Open `/path/to/AdMob/AdMobOptions.php` in your server.
 2. Replace `<TELEGRAM_TOKEN>` with your bot token that you create in step 3.
 3. Replace `<YOUR_PUBLICATION_ID>` with your AdMob publication ID.
 4. Replace `<YOUR_CLIENT_ID>` And `<YOUR_CLIENT_SECRET>` with values which you saved in step 2.
-6. Replace `<YOUR_REDIRECT_URI>` with `/path/to/AdMob/Auth.php`. (Link of `Auth.php` in your server)
-7. Replace `<YOUR_TELEGRAM_ID>` with your userID to be admin of the bot. (You can use [`@userinfobot`](https://github.com/nadam/userinfobot) to find your userID)
+5. Replace `<YOUR_REDIRECT_URI>` with `/path/to/AdMob/Auth.php`. (Link of `Auth.php` in your server)
+6. Replace `<YOUR_TELEGRAM_ID>` with your userID to be admin of the bot. (You can use [`@userinfobot`](https://github.com/nadam/userinfobot) to find your userID)
 
 - **Step 5:** Login to the panel by the bot. (Only required once)
 1. Start the bot (With the admin account)
