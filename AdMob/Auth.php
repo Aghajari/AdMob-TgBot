@@ -17,7 +17,7 @@
  */
  
  
-require_once('GoogleAdmobHelper.php');
+require_once('GoogleAdMobHelper.php');
 use googleadmobhelper\GoogleAdmobHelper;
 
 if (isset($_GET['code'])) {
