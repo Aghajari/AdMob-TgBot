@@ -54,10 +54,10 @@ Admins can use the bot to add/remove subusers.
 5. Select the subuser
 6. Send the unique ID of the application that subuser can report (must be something like `ca-app-pub-1234~1234`)
 
-You can also yourself as a subuser and restrict the apps that you can report.
+You can also add yourself as a subuser and restrict the apps that you can report.
 
 ## Reports
-Reports contain these informations:
+Reports contain these information:
 
 - **🆔 :** The unique ID of AdUnit or application.
 - **💰 :** The estimated earnings.
